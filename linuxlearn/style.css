@@ -1,0 +1,34 @@
+body { margin:0 auto; font-size:12px; font-family:Verdana; line-height:1.5;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
+ul { list-style:none;}
+img { border:0px;}
+a { color:#05a; text-decoration:none;}
+a:hover { color:#f00;}
+
+ 
+ 
+/*body*/
+#container { width:auto; margin:0 auto;}
+<div class="clearfloat"></div>
+
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+/*header*/
+#header { height:70px; background:#C7C7C7; margin-bottom:8px;}
+#logo {float:left; 	font-size: x-large;margin-top: 14px;}
+#search {float: right;margin-top:20px}
+#nav { height:30px; background:#CCFFCC; margin-bottom:8px;}
+
+ <div class="clearfloat"></div>
+
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+/*main*/
+#maincontent { margin-bottom:8px;overflow:auto; zoom:1;}
+#main { float:left; width:70%; height:500px; background:#FFFF99;}
+#side { float:right; width:29.3%; height:500px; background:#FFCC99;}
+
+ <div class="clearfloat"></div>
+
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+/*footer*/
+#footer { height:70px; background:#CCFFCC;}
